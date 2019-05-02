@@ -8,7 +8,7 @@
 
 ### Installing
 
-We offer binary images of the latest releases here: http://latest.turtlecoin.lol
+We offer binary images of the latest releases here: http://crygcoin.com
 
 If you would like to compile yourself, read on.
 
@@ -35,7 +35,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `sudo pip install cmake`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
+- `git clone -b master --single-branch https://github.com/mi-mai/CRYGcoin`
 - `cd turtlecoin`
 - `mkdir build`
 - `cd build`
@@ -88,7 +88,7 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
+- `git clone -b master --single-branch https://github.com/mi-mai/CRYGcoin`
 - `cd turtlecoin`
 - `mkdir build`
 - `cd build`
@@ -112,7 +112,7 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm gcc@8 openssl`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
+- `git clone -b master --single-branch https://github.com/mi-mai/CRYGcoin`
 - `cd turtlecoin`
 - `mkdir build`
 - `cd build`
@@ -136,7 +136,7 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm openssl`
 - `export CC=/usr/local/opt/llvm/bin/clang`
 - `export CXX=/usr/local/opt/llvm/bin/clang++`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
+- `git clone -b master --single-branch https://github.com/mi-mai/CRYGcoin`
 - `cd turtlecoin`
 - `mkdir build`
 - `cd build`
