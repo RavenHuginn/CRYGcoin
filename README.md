@@ -45,7 +45,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./CrygCoind --version`
 
 ##### Ubuntu, using Clang
 
@@ -79,7 +79,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./CrygCoind --version`
 
 ##### Generic Linux
 
@@ -89,7 +89,7 @@ If you want to use clang, ensure you set the environment variables `CC` and `CXX
 See the ubuntu instructions for an example.
 
 - `git clone -b master --single-branch https://github.com/mi-mai/CRYGcoin`
-- `cd turtlecoin`
+- `cd crygcoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -98,7 +98,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./CrygCoind --version`
 
 #### OSX/Apple, using GCC
 
@@ -122,7 +122,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./CrygCoind --version`
 
 #### OSX/Apple, using Clang
 
@@ -146,7 +146,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./CrygCoind --version`
 
 
 #### Windows
@@ -166,13 +166,13 @@ The binaries will be in the `src` folder when you are complete.
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
 - `cmake -G "Visual Studio 15 2017 Win64" .. -DBOOST_ROOT=C:/local/boost_1_68_0`
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /m`
+- `MSBuild CrygCoin.sln /p:Configuration=Release /m`
 
 The binaries will be in the `src/Release` folder when you are complete.
 
 - `cd src`
 - `cd Release`
-- `TurtleCoind.exe --version`
+- `CrygCoind.exe --version`
 
 #### Raspberry Pi 3 B+ (AARCH64/ARM64)
 The following images are known to work. Your operation system image **MUST** be 64 bit.
@@ -197,7 +197,7 @@ Once you have a 64 bit image installed, setup proceeds the same as any Linux dis
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./CrygCoind --version`
 
 #### Thanks
 Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
