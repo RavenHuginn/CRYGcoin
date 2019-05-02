@@ -1,7 +1,7 @@
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/No_Logo_logo.svg/220px-No_Logo_logo.svg.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+[![Build Status](https://travis-ci.org/crygcoin/crygcoin.svg?branch=master)](https://travis-ci.org/crygcoin/crygcoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/crygcoin/crygcoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/crygcoin)
 
 #### Development Build Status
 [![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
@@ -36,7 +36,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `export CC=gcc-8`
 - `export CXX=g++-8`
 - `git clone -b master --single-branch https://github.com/mi-mai/CRYGcoin`
-- `cd turtlecoin`
+- `cd crygcoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
